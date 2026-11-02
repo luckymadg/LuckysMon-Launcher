@@ -1,0 +1,2135 @@
+===== CONTENIDO COMPLETO DE OVERRIDES =====
+
+[CARPETA] config
+[ARCHIVO] config\accessories.json5
+[ARCHIVO] config\accessories_compat.json5
+[ARCHIVO] config\advancementdisable.toml
+[ARCHIVO] config\advancementplaques.toml
+[ARCHIVO] config\beautify.json
+[ARCHIVO] config\betterf3.json
+[ARCHIVO] config\betterthirdperson.json5
+[ARCHIVO] config\biome_replacer.properties
+[ARCHIVO] config\brb.toml
+[ARCHIVO] config\capture_xp.json
+[ARCHIVO] config\cardinal-components-api.properties
+[ARCHIVO] config\carryon-client.json
+[ARCHIVO] config\carryon-common.json
+[ARCHIVO] config\catchindicator-client.cfg
+[ARCHIVO] config\catchrate-display.json
+[ARCHIVO] config\cinematic-client.json
+[ARCHIVO] config\cobblecuisine.json
+[CARPETA] config\cobbledollars
+[ARCHIVO] config\cobbledollars\bank.json
+[ARCHIVO] config\cobbledollars\client.json
+[ARCHIVO] config\cobbledollars\common.json
+[ARCHIVO] config\cobbledollars\default_shop.json
+[CARPETA] config\cobblemon
+[ARCHIVO] config\cobblemon\main.json
+[CARPETA] config\cobblemon\spawning
+[ARCHIVO] config\cobblemon\spawning\best-spawner-config.json
+[ARCHIVO] config\cobblemon\starters.json
+[CARPETA] config\cobblemon-additions
+[ARCHIVO] config\cobblemon-additions\cobblemon-additions.json
+[ARCHIVO] config\cobblemon-battle-extras-server.json
+[ARCHIVO] config\cobblemon-battle-extras.json
+[ARCHIVO] config\cobblemonbattlepositions.json
+[CARPETA] config\cobblemonraiddens
+[ARCHIVO] config\cobblemonraiddens\blacklist.json5
+[ARCHIVO] config\cobblemonraiddens\client.json5
+[ARCHIVO] config\cobblemonraiddens\common.json5
+[ARCHIVO] config\cobblemonraiddens\conditions.json5
+[ARCHIVO] config\cobblemonraiddens\tier_five.json5
+[ARCHIVO] config\cobblemonraiddens\tier_four.json5
+[ARCHIVO] config\cobblemonraiddens\tier_one.json5
+[ARCHIVO] config\cobblemonraiddens\tier_seven.json5
+[ARCHIVO] config\cobblemonraiddens\tier_six.json5
+[ARCHIVO] config\cobblemonraiddens\tier_three.json5
+[ARCHIVO] config\cobblemonraiddens\tier_two.json5
+[CARPETA] config\cobblemon_quests
+[ARCHIVO] config\cobblemon_quests\cobblemon_quests.config
+[ARCHIVO] config\cobblemon_smartphone.json
+[CARPETA] config\cobblenav
+[ARCHIVO] config\cobblenav\client-config.json
+[ARCHIVO] config\cobblenav\server-config.json
+[CARPETA] config\cobbreeding
+[ARCHIVO] config\cobbreeding\main.json
+[ARCHIVO] config\comforts-common.toml
+[ARCHIVO] config\comforts-server.toml
+[ARCHIVO] config\continuity.json
+[ARCHIVO] config\creativecore-client.json
+[CARPETA] config\customsplashscreen
+[ARCHIVO] config\customsplashscreen\background.png
+[ARCHIVO] config\customsplashscreen\progressbar.png
+[ARCHIVO] config\customsplashscreen\progressbar_background.png
+[ARCHIVO] config\customsplashscreen\square_logo.png
+[ARCHIVO] config\customsplashscreen\wide_logo.png
+[ARCHIVO] config\customsplashscreen.json
+[CARPETA] config\defaultoptions
+[ARCHIVO] config\defaultoptions\keybindings.txt
+[ARCHIVO] config\defaultoptions\options.txt
+[ARCHIVO] config\defaultoptions\servers.dat
+[ARCHIVO] config\defaultoptions-common.toml
+[ARCHIVO] config\disabled_sounds.json
+[CARPETA] config\easy_npc
+[ARCHIVO] config\easy_npc\dialog_client.cfg
+[ARCHIVO] config\easy_npc\dialog_options.cfg
+[ARCHIVO] config\easy_npc\highlight_client.cfg
+[ARCHIVO] config\easy_npc\name_tag_client.cfg
+[ARCHIVO] config\easy_npc\npc_base.cfg
+[ARCHIVO] config\easy_npc\remote_texture.cfg
+[ARCHIVO] config\easy_npc\render_entity_type_support.cfg
+[ARCHIVO] config\easy_npc\security.cfg
+[CARPETA] config\easy_npc\skin
+[CARPETA] config\easy_npc\skin\allay
+[ARCHIVO] config\easy_npc\skin\allay\allay_template.png
+[CARPETA] config\easy_npc\skin\cat
+[ARCHIVO] config\easy_npc\skin\cat\cat_template.png
+[CARPETA] config\easy_npc\skin\chicken
+[ARCHIVO] config\easy_npc\skin\chicken\chicken_template.png
+[CARPETA] config\easy_npc\skin\creeper
+[ARCHIVO] config\easy_npc\skin\creeper\creeper_template.png
+[CARPETA] config\easy_npc\skin\ender_man
+[ARCHIVO] config\easy_npc\skin\ender_man\ender_man_template.png
+[CARPETA] config\easy_npc\skin\fairy
+[ARCHIVO] config\easy_npc\skin\fairy\fairy_template.png
+[CARPETA] config\easy_npc\skin\fox
+[ARCHIVO] config\easy_npc\skin\fox\fox_template.png
+[CARPETA] config\easy_npc\skin\humanoid
+[ARCHIVO] config\easy_npc\skin\humanoid\humanoid_template.png
+[CARPETA] config\easy_npc\skin\humanoid_slim
+[ARCHIVO] config\easy_npc\skin\humanoid_slim\humanoid_slim_template.png
+[CARPETA] config\easy_npc\skin\husk
+[ARCHIVO] config\easy_npc\skin\husk\husk_template.png
+[CARPETA] config\easy_npc\skin\illager
+[ARCHIVO] config\easy_npc\skin\illager\illager_template.png
+[CARPETA] config\easy_npc\skin\iron_golem
+[ARCHIVO] config\easy_npc\skin\iron_golem\iron_golem_template.png
+[CARPETA] config\easy_npc\skin\orc
+[ARCHIVO] config\easy_npc\skin\orc\orc_template.png
+[CARPETA] config\easy_npc\skin\pig
+[ARCHIVO] config\easy_npc\skin\pig\pig_template.png
+[CARPETA] config\easy_npc\skin\piglin
+[ARCHIVO] config\easy_npc\skin\piglin\piglin_template.png
+[CARPETA] config\easy_npc\skin\skeleton
+[ARCHIVO] config\easy_npc\skin\skeleton\skeleton_template.png
+[CARPETA] config\easy_npc\skin\spider
+[ARCHIVO] config\easy_npc\skin\spider\spider_template.png
+[CARPETA] config\easy_npc\skin\stray
+[ARCHIVO] config\easy_npc\skin\stray\stray_template.png
+[CARPETA] config\easy_npc\skin\vex
+[ARCHIVO] config\easy_npc\skin\vex\vex_template.png
+[CARPETA] config\easy_npc\skin\villager
+[ARCHIVO] config\easy_npc\skin\villager\villager_template.png
+[ARCHIVO] config\easy_npc\skin\villager\villager_without_hat_template.png
+[CARPETA] config\easy_npc\skin\witch
+[ARCHIVO] config\easy_npc\skin\witch\witch_template.png
+[CARPETA] config\easy_npc\skin\wolf
+[ARCHIVO] config\easy_npc\skin\wolf\wolf_template.png
+[CARPETA] config\easy_npc\skin\zombie
+[ARCHIVO] config\easy_npc\skin\zombie\zombie_template.png
+[CARPETA] config\easy_npc\skin\zombie_villager
+[ARCHIVO] config\easy_npc\skin\zombie_villager\zombie_villager_template.png
+[ARCHIVO] config\easy_npc\spawner_type.cfg
+[ARCHIVO] config\easy_npc\speech_bubble_client.cfg
+[ARCHIVO] config\easy_npc\storage.cfg
+[ARCHIVO] config\enchdesc.json
+[ARCHIVO] config\entityculling.json
+[ARCHIVO] config\entity_model_features.json
+[ARCHIVO] config\entity_texture_features.json
+[ARCHIVO] config\etf_warnings.json
+[CARPETA] config\euphoria_patcher
+[ARCHIVO] config\euphoria_patcher\data.json
+[ARCHIVO] config\euphoria_patcher\settings.toml
+[CARPETA] config\fabric
+[ARCHIVO] config\fabric\indigo-renderer.properties
+[CARPETA] config\fancymenu
+[CARPETA] config\fancymenu\assets
+[ARCHIVO] config\fancymenu\assets\30th_anniversary.png
+[ARCHIVO] config\fancymenu\assets\bg_test.png
+[ARCHIVO] config\fancymenu\assets\cobbleverse_icon_16.png
+[ARCHIVO] config\fancymenu\assets\cobbleverse_icon_32.icns
+[ARCHIVO] config\fancymenu\assets\cobbleverse_icon_32.png
+[ARCHIVO] config\fancymenu\assets\cobbleverse_title.png
+[ARCHIVO] config\fancymenu\assets\discord_icon.png
+[ARCHIVO] config\fancymenu\assets\latias_latios_background.png
+[ARCHIVO] config\fancymenu\assets\pokedex_menu.png
+[ARCHIVO] config\fancymenu\assets\pokedex_menu_30th.png
+[ARCHIVO] config\fancymenu\assets\slideshow_frame.png
+[ARCHIVO] config\fancymenu\customizablemenus.txt
+[CARPETA] config\fancymenu\customization
+[ARCHIVO] config\fancymenu\customization\cobbleverse_curseforge.txt
+[ARCHIVO] config\fancymenu\customization\cobbleverse_multiplayer_screen.txt
+[ARCHIVO] config\fancymenu\customization\cobbleverse_pause_menu.txt
+[ARCHIVO] config\fancymenu\custom_gui_screens.txt
+[CARPETA] config\fancymenu\layout_editor
+[CARPETA] config\fancymenu\layout_editor\widgets
+[ARCHIVO] config\fancymenu\layout_editor\widgets\element_layer_control.lewidget
+[ARCHIVO] config\fancymenu\legacy_checklist.txt
+[ARCHIVO] config\fancymenu\options.txt
+[CARPETA] config\fancymenu\slideshows
+[CARPETA] config\fancymenu\slideshows\pokedex
+[CARPETA] config\fancymenu\slideshows\pokedex\images
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\AlfredoGym.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\AshHouse.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\BrockVSMisty.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\ChampionCamilla.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\CrownCemetery.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\DeoxysMeteorite.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\DistortionWorld.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\FannieGym.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\FlyingTaxi.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\FurioGym.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\GengarGmax.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\GroudonVolcano.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\HoennLeague.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\HouseFurnitures.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\JohtoLeague.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\KantoCartographer.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\KyogreTemple.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\LakeVerity.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\LegendaryBirds.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\MegaZygardeVSMegaCharizardX.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\MistyGym.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\NecrozmaTowers.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\NightSuicuneAurora.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\OriginTemple.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\PokeMart.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\PokemonCenter.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\RadioTower.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\RegirockTemple.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\RegisteelTemple.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\RidingTorterraTogether.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\SabrinaGym.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\SecretGarden.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\SinnohLeague.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\SnowpointTemple.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\StarkMountain.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\TeamGalacticPharmacy.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\TeamRocket.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\TeamRocketRadio.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\images\WhirlIsland.png
+[ARCHIVO] config\fancymenu\slideshows\pokedex\properties.txt
+[CARPETA] config\fancymenu\ui_themes
+[ARCHIVO] config\fancymenu\ui_themes\dark.json
+[ARCHIVO] config\fancymenu\ui_themes\light.json
+[ARCHIVO] config\fancymenu\user_variables.db
+[ARCHIVO] config\ferritecore.mixin.properties
+[ARCHIVO] config\fightorflight.json5
+[ARCHIVO] config\fightorflight_moves.json5
+[ARCHIVO] config\fightorflight_visual_effect.json5
+[ARCHIVO] config\forgeconfigapiport.toml
+[ARCHIVO] config\forgivingvoid-common.toml
+[ARCHIVO] config\ftblibrary-client.snbt
+[ARCHIVO] config\ftbquests-client.snbt
+[ARCHIVO] config\ftbteams-server.snbt
+[ARCHIVO] config\global_packs.toml
+[ARCHIVO] config\immediatelyfast.json
+[ARCHIVO] config\infinite-music-options.json
+[ARCHIVO] config\interactic.json5
+[ARCHIVO] config\iris-excluded.json
+[ARCHIVO] config\iris.properties
+[CARPETA] config\jei
+[ARCHIVO] config\jei\blacklist.json
+[CARPETA] config\jei\client
+[CARPETA] config\jei\client\default
+[ARCHIVO] config\jei\client\default\jei-client.ini
+[ARCHIVO] config\jei\client\default\jei-colors.ini
+[ARCHIVO] config\jei\client\default\jei-debug.ini
+[ARCHIVO] config\jei\client\default\jei-mod-id-format.ini
+[ARCHIVO] config\jei\client\ingredient-list-mod-sort-order.ini
+[ARCHIVO] config\jei\client\ingredient-list-type-sort-order.ini
+[ARCHIVO] config\jei\client\recipe-category-sort-order.ini
+[CARPETA] config\jei\server
+[CARPETA] config\jei\server\world
+[CARPETA] config\jei\server\world\default
+[ARCHIVO] config\jei\server\world\default\jei-server.ini
+[CARPETA] config\jei\world
+[CARPETA] config\jei\world\server
+[CARPETA] config\jei\world\server\Lucky´sMon (luckysmon_holy_gg)
+[ARCHIVO] config\jei\world\server\Lucky´sMon (luckysmon_holy_gg)\lookupHistory.json
+[CARPETA] config\jei\world\server\Minecraft Server (luckysmonfix_holy_gg)
+[ARCHIVO] config\jei\world\server\Minecraft Server (luckysmonfix_holy_gg)\lookupHistory.json
+[CARPETA] config\konkrete
+[CARPETA] config\konkrete\locals
+[ARCHIVO] config\konkrete\locals\de_de.local
+[ARCHIVO] config\konkrete\locals\en_us.local
+[ARCHIVO] config\konkrete\locals\pl_pl.local
+[ARCHIVO] config\konkrete\locals\pt_br.local
+[ARCHIVO] config\lenientdeath.json5
+[ARCHIVO] config\libjf-config-core-v2.json5
+[ARCHIVO] config\libjf-translate-v1.json5
+[ARCHIVO] config\libjf-web-v1.json5
+[ARCHIVO] config\lithium.properties
+[ARCHIVO] config\lootr.json
+[ARCHIVO] config\lumymon.json
+[CARPETA] config\mega_showdown
+[ARCHIVO] config\mega_showdown\config.json
+[CARPETA] config\mezz_config
+[CARPETA] config\mezz_config\client
+[CARPETA] config\mezz_config\client\default
+[ARCHIVO] config\mezz_config\client\default\settings.ini
+[ARCHIVO] config\midnightlib.json
+[ARCHIVO] config\mobsbegone-blacklist.json
+[ARCHIVO] config\modernfix-mixins.properties
+[ARCHIVO] config\modmenu.json
+[ARCHIVO] config\moogs_structures.json
+[ARCHIVO] config\moreculling.toml
+[ARCHIVO] config\more_cobblemon_tweaks.json
+[ARCHIVO] config\MouseTweaks.cfg
+[ARCHIVO] config\musicnotification.json
+[ARCHIVO] config\nethermap.toml
+[ARCHIVO] config\notenoughanimations.json
+[ARCHIVO] config\notenoughcrashes.json
+[CARPETA] config\npcpremium
+[ARCHIVO] config\npcpremium\config.json
+[ARCHIVO] config\obc-common.toml
+[ARCHIVO] config\packetfixer.properties
+[ARCHIVO] config\PaginatedAdvancements.json5
+[ARCHIVO] config\particlerain.json
+[ARCHIVO] config\particular.json5
+[ARCHIVO] config\PastureLoot.json
+[ARCHIVO] config\pingwheel.json
+[ARCHIVO] config\pingwheel.server.json
+[CARPETA] config\playerxp
+[ARCHIVO] config\playerxp\playerxp.json
+[ARCHIVO] config\rctmod-client.toml
+[ARCHIVO] config\rctmod-server.toml
+[ARCHIVO] config\repurposed_structures.json
+[ARCHIVO] config\resourcepackoverrides.json
+[CARPETA] config\respackopts
+[ARCHIVO] config\respackopts\_respackopts.conf
+[CARPETA] config\roughlyenoughitems
+[ARCHIVO] config\roughlyenoughitems\collapsible.json5
+[ARCHIVO] config\roughlyenoughitems\config.json5
+[ARCHIVO] config\roughlyenoughitems\favorites.json5
+[ARCHIVO] config\roughlyenoughitems\hints.json
+[ARCHIVO] config\roughlyenoughitems\pinyin.properties
+[ARCHIVO] config\roughlyenoughitems\pinyin_double.properties
+[CARPETA] config\safepastures
+[ARCHIVO] config\safepastures\safepastures.json
+[ARCHIVO] config\securitycraft-server.json
+[CARPETA] config\serverpokeshop
+[ARCHIVO] config\serverpokeshop\discord.txt
+[CARPETA] config\smart_particles
+[ARCHIVO] config\smart_particles\config.json
+[ARCHIVO] config\sodium-extra-options.json
+[ARCHIVO] config\sodium-extra.properties
+[ARCHIVO] config\sodium-fingerprint.json
+[ARCHIVO] config\sodium-mixins.properties
+[ARCHIVO] config\sodium-options.json
+[ARCHIVO] config\sophisticatedbackpacks-common.toml
+[ARCHIVO] config\sophisticatedbackpacks-server.toml
+[ARCHIVO] config\sophisticatedcore-client.toml
+[ARCHIVO] config\sophisticatedcore-common.toml
+[ARCHIVO] config\sophisticatedstorage-client.toml
+[ARCHIVO] config\sophisticatedstorage-common.toml
+[ARCHIVO] config\sophisticatedstorage-server.toml
+[CARPETA] config\sound_physics_remastered
+[ARCHIVO] config\sound_physics_remastered\occlusion.properties
+[ARCHIVO] config\sound_physics_remastered\reflectivity.properties
+[ARCHIVO] config\sound_physics_remastered\soundphysics.properties
+[ARCHIVO] config\sound_physics_remastered\sound_rates.properties
+[ARCHIVO] config\stackdeobf.json
+[ARCHIVO] config\tim_core.json
+[ARCHIVO] config\toms_storage.json
+[ARCHIVO] config\transition.json
+[ARCHIVO] config\trashslot-common.toml
+[ARCHIVO] config\trender.json
+[ARCHIVO] config\vanillabackport-client.toml
+[ARCHIVO] config\vanillabackport-common.toml
+[CARPETA] config\VillagerConfig
+[ARCHIVO] config\VillagerConfig\villagerconfig.json5
+[CARPETA] config\voicechat
+[ARCHIVO] config\voicechat\category-volumes.properties
+[ARCHIVO] config\voicechat\player-volumes.properties
+[ARCHIVO] config\voicechat\translations.properties
+[ARCHIVO] config\voicechat\username-cache.json
+[ARCHIVO] config\voicechat\voicechat-client.properties
+[ARCHIVO] config\voicechat\voicechat-server.properties
+[ARCHIVO] config\waystones-common.toml
+[CARPETA] config\xaero
+[CARPETA] config\xaero\lib
+[ARCHIVO] config\xaero\lib\client.cfg
+[ARCHIVO] config\xaero\lib\common.cfg
+[CARPETA] config\xaero\lib\profiles
+[ARCHIVO] config\xaero\lib\profiles\cobbleverse.cfg
+[CARPETA] config\xaero\lib\server_profiles
+[ARCHIVO] config\xaero\lib\server_profiles\cobbleverse.cfg
+[CARPETA] config\xaero\minimap
+[ARCHIVO] config\xaero\minimap\client.cfg
+[ARCHIVO] config\xaero\minimap\common.cfg
+[ARCHIVO] config\xaero\minimap\default_radar_categories_client.json
+[ARCHIVO] config\xaero\minimap\default_radar_categories_server.json
+[CARPETA] config\xaero\minimap\profiles
+[ARCHIVO] config\xaero\minimap\profiles\cobbleverse.cfg
+[CARPETA] config\xaero\minimap\profiles\entity_radar_categories
+[ARCHIVO] config\xaero\minimap\profiles\entity_radar_categories\cobbleverse.cfg.json
+[CARPETA] config\xaero\minimap\profiles\info_display_config
+[ARCHIVO] config\xaero\minimap\profiles\info_display_config\cobbleverse.cfg.txt
+[CARPETA] config\xaero\minimap\server_profiles
+[ARCHIVO] config\xaero\minimap\server_profiles\cobbleverse.cfg
+[CARPETA] config\xaero\world-map
+[ARCHIVO] config\xaero\world-map\client.cfg
+[ARCHIVO] config\xaero\world-map\common.cfg
+[CARPETA] config\xaero\world-map\profiles
+[ARCHIVO] config\xaero\world-map\profiles\cobbleverse.cfg
+[CARPETA] config\xaero\world-map\server_profiles
+[ARCHIVO] config\xaero\world-map\server_profiles\cobbleverse.cfg
+[ARCHIVO] config\xaerohud.txt
+[ARCHIVO] config\xaeropatreon.txt
+[ARCHIVO] config\yacl.json5
+[ARCHIVO] config\zoomify.json
+[CARPETA] datapacks
+[ARCHIVO] datapacks\COBBLEVERSE - No Ender Dragon.zip
+[ARCHIVO] datapacks\COBBLEVERSE - No Hunger.zip
+[ARCHIVO] datapacks\COBBLEVERSE-DP-v18-CF.zip
+[ARCHIVO] datapacks\COBBLEVERSE-Loot-DP-v11.zip
+[ARCHIVO] datapacks\COBBLEVERSE-RCT-DP-v18.zip
+[ARCHIVO] datapacks\CurseForge-DP-v8.zip
+[CARPETA] datapacks\extra
+[ARCHIVO] datapacks\extra\COBBLEVERSE-Hoenn-DP.zip
+[ARCHIVO] datapacks\extra\COBBLEVERSE-Johto-DP.zip
+[ARCHIVO] datapacks\extra\COBBLEVERSE-Sinnoh-DP.zip
+[ARCHIVO] datapacks\extra\Terralith-DP.zip
+[CARPETA] mods
+[ARCHIVO] mods\cobblemon-additions-4.1.6.jar
+[ARCHIVO] mods\cobblemon-battle-positions-1.1.3.jar
+[ARCHIVO] mods\cobblemon-journey-mounts-1.7.30-cobbleverse-CF.jar
+[ARCHIVO] mods\Cobbreeding-fabric-2.2.0.jar
+[ARCHIVO] mods\infinite-music-0.4.6.jar
+[ARCHIVO] mods\moar-concrete-1.3.1.jar
+[ARCHIVO] mods\nethermap-4.0.0-1.21.1.jar
+[ARCHIVO] mods\tmcraft-1.4.18+1.7.3.jar
+[ARCHIVO] options.txt
+[CARPETA] resourcepacks
+[ARCHIVO] resourcepacks\CCCC-1.7.3.zip
+[ARCHIVO] resourcepacks\Cobblemon Interface Modded v1.9.4.zip.rpo
+[ARCHIVO] resourcepacks\Cobblemon Interface v1.6.0.zip.rpo
+[ARCHIVO] resourcepacks\COBBLEVERSE RCTmod RP.zip
+[ARCHIVO] resourcepacks\COBBLEVERSE RP [CF].zip
+[ARCHIVO] resourcepacks\COBBLEVERSE Soundtrack.zip
+[ARCHIVO] resourcepacks\CurseForge RP.zip
+[ARCHIVO] servers.dat
+[CARPETA] shaderpacks
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\.gitignore
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\addedMods.md
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\ComplementaryLicense.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\Credits.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\EuphoriaPatchesLicense.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\InformationEuphoriaPatches.md
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\Made for Complementary Shaders r5.7.1.txt
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\block.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\colorwheel.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\dimension.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\entity.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\item.properties
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\en_US.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\ja_JP.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\pl_PL.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\pt_BR.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\ru_RU.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\uk_UA.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lang\zh_CN.lang
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\antialiasing
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\antialiasing\fxaa.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\antialiasing\jitter.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\antialiasing\taa.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\auroraBorealis.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\bedrockNoise.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\clouds
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\clouds\cloudCoord.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\clouds\mainClouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\clouds\reimaginedClouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\clouds\unboundClouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\endCrystalVortex.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\enderBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\enderStars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\endFlash.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\endPortalBeam.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog\bloomFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog\caveFactor.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog\coloredLightFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog\endCenterFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog\mainFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\fog\waterFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\netherNoise.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\netherStorm.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\nightNebula.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\overworldBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\rainbow.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\shootingStars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\sky.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\stars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\atmospherics\volumetricLight.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\blocklightColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\blocklightColorsACT.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\cloudColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\colorMultipliers.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\lightAndAmbientColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\moonPhaseInfluence.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\skyColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\colors\tonemaps.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\common.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\cloudShadows.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\coloredBlocklight.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\ggx.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\heldLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\mainLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\minimumLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\lighting\shadowSampling.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\blockEntityIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\customMaterials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\deferredIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\deferredMaterials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\entityIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\irisIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\materialDefines.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\terrainIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialHandling\translucentIPBR.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\anisotropicFiltering.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\coatedTextures.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\connectedGlass.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\customEmission.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\generatedNormals.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\playerRayTracer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\pomEffects.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\reflectionBackground.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\reflectionBlurFilter.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\reflections.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\refraction.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\snowyWorld.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\waterProcedureTexture.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\wavingBlocks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\materialMethods\worldSpaceRef.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\overlayNoise.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\overlayNoiseApply.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\seasons.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\seasonsTime.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\entities
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\entities\glowItemFrame.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\entities\itemFrame.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\others
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\others\endPortalEffect.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\others\lightningBolt.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\others\signText.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\others\SpacEagle17.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\others\trident.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\acaciaPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\bambooPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\birchPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\cherryPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\crimsonPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\darkOakPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\junglePlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\mangrovePlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\oakPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\paleOakPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\sprucePlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\planks\warpedPlanks.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\amethyst.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\anvil.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\autoModdedOres.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\blackstone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\candle.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\cobblestone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\copperBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\copperBulb.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\coral.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\cryingObsidian.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\deepslate.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\diamondBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\dirt.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\emeraldBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\endPortalFrame.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\endStone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\froglights.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\goldBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\ironBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\lanternMetal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\lapisBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\lava.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\lavaEdge.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\lavaNoise.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\leaves.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\netheriteBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\netherrack.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\oakWood.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\obsidian.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\openEyeblossom.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\paleOakWood.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\pumpkin.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\quartzBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\rawCopperBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\rawGoldBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\rawIronBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\redstoneBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\redstoneTorch.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\snow.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\stone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\terrain\torchflower.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\translucents
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\translucents\glass.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\translucents\netherPortal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\translucents\stainedGlass.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\materials\specificMaterials\translucents\water.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\colorCodedPrograms.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\darkOutline.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\dhSSAO.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\distantLightBokeh.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\distortWorld.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\handSway.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\lensFlare.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\myFile.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\packing.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\pixelation.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\pixelCraft.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\potato.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\reprojection.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\shockwave.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\showLightLevels.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\misc\worldOutline.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\pipelineSettings.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\activateSettings.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\bloom.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\blueScreen.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\clouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\cloudsAndLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\colorMult.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\composite1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\composite2.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\composite3.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\composite5.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\deferred1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\emissionMult.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\emissiveFlowers.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\endBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\enderStars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\endFlash.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\entities.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\entityMaterials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\final.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\interactiveFoliage.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\lightAndAmbientColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\longExposure.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\mainFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\mainLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\materials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\nightNebula.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\overworldBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\raindropColor.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\settingsFileDefines.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\shadowMainLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\shockwave.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\SSAO.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\stars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\tonemaps.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\volumetricLight.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\water.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\wavingBlocks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\shaderSettings\worldMotionBlur.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\all_text_messages.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\color_code_info.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_apple_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_apple_dragon_death.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_apple_end_crystal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_apple_portal_beam.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_coordinates_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_optifine_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_optifine_af.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_optifine_dragon_death.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_optifine_end_crystal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_optifine_portal_beam.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_palette_not_found.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_shadowdistance_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_shadows_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\error_wsr_missing_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\new_Euphoria_Version.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\old_ssbl_error.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\old_version_ssbl_error.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textRendering\textRenderer.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\cloud-water-old.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\cloud-water-old.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\cloud-water.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\cloud-water.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\clouds_minecrafty-water.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\clouds_minecrafty-water.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\cucumber.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\cucumber.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\euphoria_patches.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\euphoria_patches.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\noise.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\noise.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\potato.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\textures\potato.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\uniforms.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util\colorConversion.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util\commonFunctions.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util\dFdxdFdy.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util\dither.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util\miplevel.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\util\spaceConversion.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\endCrystalVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\leavesVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\lightVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\puddleVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\reflectionVoxelData.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\reflectionVoxelization.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\SSBOs
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\SSBOs\blockDataBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\SSBOs\clearSSBOs.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\SSBOs\playerVerticesBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\SSBOs\wsrBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\lib\voxelization\SSBOs\wsrLodBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\pack.json
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\pack.png
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\INSTRUCTIONS.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette1.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette10.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette2.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette3.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette4.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette5.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette6.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette7.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette8.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\palettes\palette9.png
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\program
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite2.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite3.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite4.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite5.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite6.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite7.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite8.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\composite9.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\deferred1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\dh_terrain.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\dh_water.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\final.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_armor_glint.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_basic.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_beaconbeam.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_block.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_clouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_damagedblock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_entities.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_hand.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_lightning.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_skybasic.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_skytextured.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_spidereyes.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_terrain.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_textured.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_water.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\gbuffers_weather.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\prepare.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\shadow.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\shadowcomp.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\program\template.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\shaders.properties
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite2.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite2.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite3.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite3.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite4.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite4.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite5.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite5.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite6.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite6.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite7.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite7.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite8.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite8.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite9.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\composite9.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\deferred1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\deferred1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\dh_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\dh_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\dh_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\dh_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\final.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\final.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world-1\shadowcomp.csh
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\world0
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite2.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite2.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite3.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite3.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite4.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite4.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite5.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite5.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite6.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite6.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite7.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite7.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite8.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite8.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite9.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\composite9.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\deferred1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\deferred1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\dh_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\dh_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\dh_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\dh_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\final.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\final.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\prepare.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\prepare.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world0\shadowcomp.csh
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders\shaders\world1
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite2.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite2.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite3.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite3.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite4.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite4.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite5.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite5.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite6.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite6.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite7.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite7.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite8.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite8.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite9.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\composite9.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\deferred1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\deferred1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\dh_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\dh_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\dh_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\dh_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\final.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\final.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\prepare.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\prepare.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders\shaders\world1\shadowcomp.csh
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\.gitignore
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\addedMods.md
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\ComplementaryLicense.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\Credits.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\EuphoriaPatchesLicense.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\InformationEuphoriaPatches.md
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\Made for Complementary Shaders r5.7.1.txt
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\block.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\colorwheel.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\dimension.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\entity.properties
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\item.properties
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\en_US.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\ja_JP.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\pl_PL.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\pt_BR.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\ru_RU.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\uk_UA.lang
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lang\zh_CN.lang
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\antialiasing
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\antialiasing\fxaa.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\antialiasing\jitter.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\antialiasing\taa.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\auroraBorealis.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\bedrockNoise.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\clouds
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\clouds\cloudCoord.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\clouds\mainClouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\clouds\reimaginedClouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\clouds\unboundClouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\endCrystalVortex.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\enderBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\enderStars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\endFlash.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\endPortalBeam.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog\bloomFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog\caveFactor.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog\coloredLightFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog\endCenterFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog\mainFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\fog\waterFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\netherNoise.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\netherStorm.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\nightNebula.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\overworldBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\rainbow.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\shootingStars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\sky.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\stars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\atmospherics\volumetricLight.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\blocklightColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\blocklightColorsACT.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\cloudColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\colorMultipliers.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\lightAndAmbientColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\moonPhaseInfluence.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\skyColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\colors\tonemaps.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\common.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\cloudShadows.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\coloredBlocklight.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\ggx.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\heldLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\mainLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\minimumLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\lighting\shadowSampling.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\blockEntityIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\customMaterials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\deferredIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\deferredMaterials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\entityIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\irisIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\materialDefines.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\terrainIPBR.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialHandling\translucentIPBR.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\anisotropicFiltering.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\coatedTextures.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\connectedGlass.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\customEmission.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\generatedNormals.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\playerRayTracer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\pomEffects.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\reflectionBackground.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\reflectionBlurFilter.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\reflections.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\refraction.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\snowyWorld.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\waterProcedureTexture.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\wavingBlocks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\materialMethods\worldSpaceRef.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\overlayNoise.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\overlayNoiseApply.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\seasons.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\seasonsTime.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\entities
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\entities\glowItemFrame.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\entities\itemFrame.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\others
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\others\endPortalEffect.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\others\lightningBolt.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\others\signText.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\others\SpacEagle17.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\others\trident.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\acaciaPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\bambooPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\birchPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\cherryPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\crimsonPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\darkOakPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\junglePlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\mangrovePlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\oakPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\paleOakPlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\sprucePlanks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\planks\warpedPlanks.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\amethyst.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\anvil.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\autoModdedOres.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\blackstone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\candle.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\cobblestone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\copperBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\copperBulb.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\coral.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\cryingObsidian.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\deepslate.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\diamondBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\dirt.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\emeraldBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\endPortalFrame.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\endStone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\froglights.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\goldBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\ironBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\lanternMetal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\lapisBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\lava.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\lavaEdge.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\lavaNoise.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\leaves.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\netheriteBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\netherrack.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\oakWood.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\obsidian.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\openEyeblossom.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\paleOakWood.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\pumpkin.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\quartzBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\rawCopperBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\rawGoldBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\rawIronBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\redstoneBlock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\redstoneTorch.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\snow.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\stone.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\terrain\torchflower.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\translucents
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\translucents\glass.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\translucents\netherPortal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\translucents\stainedGlass.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\materials\specificMaterials\translucents\water.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\colorCodedPrograms.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\darkOutline.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\dhSSAO.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\distantLightBokeh.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\distortWorld.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\handSway.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\lensFlare.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\myFile.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\packing.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\pixelation.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\pixelCraft.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\potato.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\reprojection.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\shockwave.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\showLightLevels.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\misc\worldOutline.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\pipelineSettings.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\activateSettings.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\bloom.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\blueScreen.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\clouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\cloudsAndLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\colorMult.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\composite1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\composite2.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\composite3.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\composite5.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\deferred1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\emissionMult.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\emissiveFlowers.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\endBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\enderStars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\endFlash.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\entities.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\entityMaterials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\final.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\interactiveFoliage.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\lightAndAmbientColors.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\longExposure.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\mainFog.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\mainLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\materials.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\nightNebula.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\overworldBeams.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\raindropColor.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\settingsFileDefines.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\shadowMainLighting.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\shockwave.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\SSAO.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\stars.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\tonemaps.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\volumetricLight.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\water.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\wavingBlocks.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\shaderSettings\worldMotionBlur.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\all_text_messages.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\color_code_info.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_apple_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_apple_dragon_death.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_apple_end_crystal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_apple_portal_beam.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_coordinates_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_optifine_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_optifine_af.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_optifine_dragon_death.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_optifine_end_crystal.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_optifine_portal_beam.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_palette_not_found.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_shadowdistance_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_shadows_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\error_wsr_missing_act.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\new_Euphoria_Version.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\old_ssbl_error.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\old_version_ssbl_error.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textRendering\textRenderer.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\cloud-water-old.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\cloud-water-old.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\cloud-water.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\cloud-water.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\clouds_minecrafty-water.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\clouds_minecrafty-water.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\cucumber.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\cucumber.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\euphoria_patches.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\euphoria_patches.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\noise.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\noise.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\potato.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\textures\potato.png.mcmeta
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\uniforms.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util\colorConversion.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util\commonFunctions.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util\dFdxdFdy.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util\dither.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util\miplevel.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\util\spaceConversion.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\endCrystalVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\leavesVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\lightVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\puddleVoxelization.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\reflectionVoxelData.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\reflectionVoxelization.glsl
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\SSBOs
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\SSBOs\blockDataBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\SSBOs\clearSSBOs.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\SSBOs\playerVerticesBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\SSBOs\wsrBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\lib\voxelization\SSBOs\wsrLodBuffer.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\pack.json
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\pack.png
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\INSTRUCTIONS.txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette1.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette10.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette2.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette3.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette4.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette5.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette6.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette7.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette8.png
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\palettes\palette9.png
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite2.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite3.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite4.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite5.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite6.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite7.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite8.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\composite9.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\deferred1.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\dh_terrain.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\dh_water.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\final.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_armor_glint.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_basic.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_beaconbeam.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_block.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_clouds.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_damagedblock.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_entities.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_hand.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_lightning.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_skybasic.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_skytextured.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_spidereyes.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_terrain.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_textured.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_water.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\gbuffers_weather.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\prepare.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\shadow.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\shadowcomp.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\program\template.glsl
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\shaders.properties
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite2.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite2.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite3.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite3.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite4.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite4.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite5.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite5.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite6.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite6.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite7.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite7.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite8.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite8.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite9.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\composite9.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\deferred1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\deferred1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\dh_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\dh_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\dh_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\dh_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\final.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\final.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world-1\shadowcomp.csh
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite2.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite2.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite3.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite3.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite4.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite4.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite5.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite5.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite6.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite6.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite7.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite7.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite8.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite8.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite9.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\composite9.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\deferred1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\deferred1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\dh_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\dh_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\dh_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\dh_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\final.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\final.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\prepare.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\prepare.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world0\shadowcomp.csh
+[CARPETA] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite2.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite2.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite3.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite3.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite4.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite4.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite5.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite5.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite6.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite6.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite7.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite7.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite8.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite8.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite9.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\composite9.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\deferred1.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\deferred1.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\dh_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\dh_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\dh_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\dh_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\final.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\final.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\prepare.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\prepare.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\shadow.fsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\shadow.vsh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality)\shaders\world1\shadowcomp.csh
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders (High Quality).txt
+[ARCHIVO] shaderpacks\COBBLEVERSE - Shaders.txt
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\.gitignore
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\addedMods.md
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\ComplementaryLicense.txt
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\Credits.txt
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\EuphoriaPatchesLicense.txt
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\InformationEuphoriaPatches.md
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\Made for Complementary Shaders r5.7.1.txt
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\block.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10083-10159.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10160-10241.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10243-10349.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10352-10460.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10461-10608.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10612-10744.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10746-10854.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10856-10964.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.10968-31020.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.31021-32016.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\block.5000-10081.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.13+\index.md
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.7.10
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.7.10\block.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.8+
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\1.8+\block.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\instructions
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\instructions\readme.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\renderlayers
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\renderlayers\renderlayers.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\tags
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\blockProperties\tags\tags.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\colorwheel.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\dimension.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\entity.properties
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\item.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\en_US.lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\ja_JP.lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\pl_PL.lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\pt_BR.lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\ru_RU.lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\uk_UA.lang
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lang\zh_CN.lang
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\antialiasing
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\antialiasing\fxaa.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\antialiasing\jitter.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\antialiasing\taa.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\auroraBorealis.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\bedrockNoise.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\clouds
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\clouds\cloudCoord.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\clouds\mainClouds.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\clouds\reimaginedClouds.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\clouds\unboundClouds.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\endCrystalVortex.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\enderBeams.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\enderStars.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\endFlash.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\endPortalBeam.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog\bloomFog.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog\caveFactor.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog\coloredLightFog.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog\endCenterFog.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog\mainFog.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\fog\waterFog.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\netherNoise.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\netherStorm.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\nightNebula.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\overworldBeams.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\rainbow.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\shootingStars.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\sky.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\stars.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\atmospherics\volumetricLight.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\blocklightColors.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\blocklightColorsACT.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\cloudColors.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\colorMultipliers.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\lightAndAmbientColors.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\moonPhaseInfluence.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\skyColors.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\colors\tonemaps.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\common.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\cloudShadows.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\coloredBlocklight.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\ggx.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\heldLighting.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\mainLighting.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\minimumLighting.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\lighting\shadowSampling.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\blockEntityIPBR.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\customMaterials.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\deferredIPBR.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\deferredMaterials.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\entityIPBR.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\irisIPBR.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\materialDefines.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\terrainIPBR.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialHandling\translucentIPBR.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\anisotropicFiltering.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\coatedTextures.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\connectedGlass.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\customEmission.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\generatedNormals.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\playerRayTracer.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\pomEffects.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\reflectionBackground.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\reflectionBlurFilter.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\reflections.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\refraction.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\snowyWorld.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\waterProcedureTexture.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\wavingBlocks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\materialMethods\worldSpaceRef.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\overlayNoise.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\overlayNoiseApply.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\seasons.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\seasonsTime.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\entities
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\entities\glowItemFrame.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\entities\itemFrame.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\others
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\others\endPortalEffect.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\others\lightningBolt.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\others\signText.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\others\SpacEagle17.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\others\trident.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\acaciaPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\bambooPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\birchPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\cherryPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\crimsonPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\darkOakPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\junglePlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\mangrovePlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\oakPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\paleOakPlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\sprucePlanks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\planks\warpedPlanks.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\amethyst.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\anvil.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\autoModdedOres.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\blackstone.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\candle.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\cobblestone.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\copperBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\copperBulb.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\coral.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\cryingObsidian.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\deepslate.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\diamondBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\dirt.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\emeraldBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\endPortalFrame.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\endStone.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\froglights.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\goldBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\ironBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\lanternMetal.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\lapisBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\lava.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\lavaEdge.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\lavaNoise.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\leaves.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\netheriteBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\netherrack.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\oakWood.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\obsidian.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\openEyeblossom.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\paleOakWood.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\pumpkin.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\quartzBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\rawCopperBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\rawGoldBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\rawIronBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\redstoneBlock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\redstoneTorch.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\snow.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\stone.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\terrain\torchflower.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\translucents
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\translucents\glass.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\translucents\netherPortal.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\translucents\stainedGlass.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\materials\specificMaterials\translucents\water.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\colorCodedPrograms.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\darkOutline.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\dhSSAO.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\distantLightBokeh.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\distortWorld.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\handSway.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\lensFlare.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\myFile.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\packing.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\pixelation.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\pixelCraft.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\potato.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\reprojection.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\shockwave.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\showLightLevels.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\misc\worldOutline.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\pipelineSettings.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\activateSettings.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\bloom.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\blueScreen.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\clouds.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\cloudsAndLighting.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\colorMult.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\composite1.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\composite2.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\composite3.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\composite5.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\deferred1.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\emissionMult.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\emissiveFlowers.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\endBeams.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\enderStars.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\endFlash.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\entities.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\entityMaterials.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\final.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\interactiveFoliage.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\lightAndAmbientColors.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\longExposure.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\mainFog.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\mainLighting.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\materials.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\nightNebula.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\overworldBeams.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\raindropColor.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\settingsFileDefines.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\shadowMainLighting.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\shockwave.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\SSAO.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\stars.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\tonemaps.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\volumetricLight.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\water.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\wavingBlocks.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\shaderSettings\worldMotionBlur.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\all_text_messages.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\color_code_info.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_apple_act.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_apple_dragon_death.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_apple_end_crystal.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_apple_portal_beam.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_coordinates_act.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_optifine_act.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_optifine_af.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_optifine_dragon_death.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_optifine_end_crystal.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_optifine_portal_beam.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_palette_not_found.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_shadowdistance_act.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_shadows_act.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\error_wsr_missing_act.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\new_Euphoria_Version.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\old_ssbl_error.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\old_version_ssbl_error.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textRendering\textRenderer.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\cloud-water-old.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\cloud-water-old.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\cloud-water.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\cloud-water.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\clouds_minecrafty-water.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\clouds_minecrafty-water.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\cucumber.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\cucumber.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\euphoria_patches.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\euphoria_patches.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\noise.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\noise.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\potato.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\textures\potato.png.mcmeta
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\uniforms.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util\colorConversion.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util\commonFunctions.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util\dFdxdFdy.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util\dither.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util\miplevel.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\util\spaceConversion.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\endCrystalVoxelization.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\leavesVoxelization.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\lightVoxelization.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\puddleVoxelization.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\reflectionVoxelData.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\reflectionVoxelization.glsl
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\SSBOs
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\SSBOs\blockDataBuffer.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\SSBOs\clearSSBOs.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\SSBOs\playerVerticesBuffer.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\SSBOs\wsrBuffer.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\lib\voxelization\SSBOs\wsrLodBuffer.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\pack.json
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\pack.png
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\INSTRUCTIONS.txt
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette1.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette10.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette2.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette3.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette4.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette5.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette6.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette7.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette8.png
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\palettes\palette9.png
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite1.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite2.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite3.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite4.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite5.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite6.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite7.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite8.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\composite9.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\deferred1.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\dh_terrain.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\dh_water.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\final.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_armor_glint.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_basic.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_beaconbeam.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_block.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_clouds.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_damagedblock.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_entities.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_hand.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_lightning.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_skybasic.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_skytextured.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_spidereyes.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_terrain.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_textured.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_water.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\gbuffers_weather.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\prepare.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\shadow.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\shadowcomp.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\program\template.glsl
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\shaders.properties
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite1.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite1.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite2.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite2.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite3.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite3.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite4.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite4.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite5.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite5.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite6.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite6.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite7.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite7.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite8.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite8.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite9.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\composite9.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\deferred1.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\deferred1.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\dh_terrain.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\dh_terrain.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\dh_water.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\dh_water.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\final.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\final.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\shadow.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\shadow.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world-1\shadowcomp.csh
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite1.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite1.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite2.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite2.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite3.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite3.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite4.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite4.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite5.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite5.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite6.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite6.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite7.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite7.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite8.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite8.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite9.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\composite9.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\deferred1.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\deferred1.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\dh_terrain.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\dh_terrain.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\dh_water.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\dh_water.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\final.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\final.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\prepare.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\prepare.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\shadow.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\shadow.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world0\shadowcomp.csh
+[CARPETA] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\clrwl_gbuffers.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\clrwl_gbuffers.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\clrwl_gbuffers_translucent.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\clrwl_gbuffers_translucent.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\clrwl_shadow.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\clrwl_shadow.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite1.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite1.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite2.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite2.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite3.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite3.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite4.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite4.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite5.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite5.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite6.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite6.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite7.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite7.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite8.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite8.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite9.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\composite9.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\deferred1.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\deferred1.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\dh_terrain.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\dh_terrain.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\dh_water.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\dh_water.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\final.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\final.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_armor_glint.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_armor_glint.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_basic.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_basic.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_beaconbeam.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_beaconbeam.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_block.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_block.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_clouds.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_clouds.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_damagedblock.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_damagedblock.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_entities.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_entities.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_entities_glowing.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_entities_glowing.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_hand.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_hand.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_lightning.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_lightning.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_line.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_line.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_skybasic.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_skybasic.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_skytextured.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_skytextured.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_spidereyes.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_spidereyes.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_terrain.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_terrain.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_textured.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_textured.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_water.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_water.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_weather.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\gbuffers_weather.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\prepare.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\prepare.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\shadow.fsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\shadow.vsh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6\shaders\world1\shadowcomp.csh
+[ARCHIVO] shaderpacks\ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6.txt

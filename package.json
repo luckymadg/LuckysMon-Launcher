@@ -1,0 +1,16 @@
+{
+  "name": "luckysmon-launcher",
+  "version": "1.0.0",
+  "description": "Launcher oficial de LuckysMon",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.1.0"
+  },
+  "dependencies": {
+    "eml-lib": "^2.7.4"
+  }
+}

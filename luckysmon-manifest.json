@@ -1,0 +1,11 @@
+
+{
+  "minecraft": {
+    "version": "1.21.1",
+    "loader": {
+      "loader": "fabric",
+      "version": "0.20.1"
+    }
+  },
+  "files": []
+}

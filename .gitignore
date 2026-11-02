@@ -1,0 +1,15 @@
+node_modules/
+modpack/overrides/
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+modpack/overrides/
+installer/modpack-copia.json
+installer/modpack.json
+listado-overrides.txt
+resumen-overrides.js
+check-modpack.js
+check-overrides.js
+list-mods.js
+list-overrides.js
