@@ -3,10 +3,11 @@ modpack/overrides/
 .DS_Store
 Thumbs.db
 *.log
-node_modules/
-modpack/overrides/
+
 installer/modpack-copia.json
 installer/modpack.json
+installer/local-server.js
+
 listado-overrides.txt
 resumen-overrides.js
 check-modpack.js
