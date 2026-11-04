@@ -1,15 +1,23 @@
+
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const https = require('https');
 const yauzl = require('yauzl');
 
-const RELEASE_BASE =
-  'https://github.com/luckymadg/LuckysMon-Launcher/releases/download/modpack_v1.0.3';
+const VERSION_URL =
+  'https://raw.githubusercontent.com/luckymadg/LuckysMon-Launcher/main/modpack-version.json';
+
+const RELEASE_BASE_URL =
+  'https://github.com/luckymadg/LuckysMon-Launcher/releases/download';
 
 const REGISTRY_FILE = '.luckysmon-managed.json';
 const CACHE_DIR = '.luckysmon-cache';
-const PERSONAL_FILES = new Set(['options.txt', 'servers.dat']);
+
+const PERSONAL_FILES = new Set([
+  'options.txt',
+  'servers.dat'
+]);
 
 // Datos personales que nunca debe sobrescribir ni eliminar el launcher.
 function isProtectedPersonalData(relative) {
@@ -84,6 +92,8 @@ function resolveInside(root, relative) {
   return destination;
 }
 
+// DESCARGA HTTPS CON REDIRECCIONES
+
 function requestBuffer(url, redirects = 0) {
   return new Promise((resolve, reject) => {
     if (redirects > 5) {
@@ -112,13 +122,19 @@ function requestBuffer(url, redirects = 0) {
         }
 
         return resolve(
-          requestBuffer(new URL(location, parsed).toString(), redirects + 1)
+          requestBuffer(
+            new URL(location, parsed).toString(),
+            redirects + 1
+          )
         );
       }
 
       if (response.statusCode !== 200) {
         response.resume();
-        return reject(new Error(`Error HTTP ${response.statusCode}: ${url}`));
+
+        return reject(
+          new Error(`Error HTTP ${response.statusCode}: ${url}`)
+        );
       }
 
       const chunks = [];
@@ -130,7 +146,12 @@ function requestBuffer(url, redirects = 0) {
   });
 }
 
-function downloadToFile(url, destination, onDownload = () => {}, redirects = 0) {
+function downloadToFile(
+  url,
+  destination,
+  onDownload = () => {},
+  redirects = 0
+) {
   return new Promise((resolve, reject) => {
     if (redirects > 5) {
       return reject(new Error('Demasiadas redirecciones.'));
@@ -171,10 +192,15 @@ function downloadToFile(url, destination, onDownload = () => {}, redirects = 0) 
 
       if (response.statusCode !== 200) {
         response.resume();
-        return reject(new Error(`Error HTTP ${response.statusCode}: ${url}`));
+
+        return reject(
+          new Error(`Error HTTP ${response.statusCode}: ${url}`)
+        );
       }
 
-      const totalBytes = Number(response.headers['content-length']) || 0;
+      const totalBytes =
+        Number(response.headers['content-length']) || 0;
+
       let downloadedBytes = 0;
       let lastReport = Date.now();
       let lastBytes = 0;
@@ -190,8 +216,13 @@ function downloadToFile(url, destination, onDownload = () => {}, redirects = 0) 
           now - lastReport >= 150 ||
           (totalBytes > 0 && downloadedBytes >= totalBytes)
         ) {
-          const elapsedSeconds = Math.max((now - lastReport) / 1000, 0.001);
-          const speedBps = (downloadedBytes - lastBytes) / elapsedSeconds;
+          const elapsedSeconds = Math.max(
+            (now - lastReport) / 1000,
+            0.001
+          );
+
+          const speedBps =
+            (downloadedBytes - lastBytes) / elapsedSeconds;
 
           onDownload({
             downloadedBytes,
@@ -257,6 +288,36 @@ function downloadToFile(url, destination, onDownload = () => {}, redirects = 0) 
   });
 }
 
+// LEER LA VERSIÓN PUBLICADA EN GITHUB
+
+async function getModpackVersion() {
+  const buffer = await requestBuffer(VERSION_URL);
+
+  let data;
+
+  try {
+    data = JSON.parse(buffer.toString('utf8'));
+  } catch {
+    throw new Error(
+      'El archivo modpack-version.json de GitHub no es un JSON válido.'
+    );
+  }
+
+  if (
+    !data ||
+    typeof data.version !== 'string' ||
+    !/^\d+\.\d+\.\d+$/.test(data.version)
+  ) {
+    throw new Error(
+      'La versión publicada del modpack no tiene un formato válido.'
+    );
+  }
+
+  return data.version;
+}
+
+// REGISTRO DE ARCHIVOS INSTALADOS
+
 function readRegistry(filePath) {
   if (!fs.existsSync(filePath)) return {};
 
@@ -272,7 +333,11 @@ function readRegistry(filePath) {
 function saveRegistry(filePath, registry) {
   const temporary = `${filePath}.tmp`;
 
-  fs.writeFileSync(temporary, JSON.stringify(registry, null, 2));
+  fs.writeFileSync(
+    temporary,
+    JSON.stringify(registry, null, 2)
+  );
+
   fs.renameSync(temporary, filePath);
 }
 
@@ -287,268 +352,296 @@ function extractPackage(
   onExtract = () => {}
 ) {
   return new Promise((resolve, reject) => {
-    yauzl.open(zipPath, { lazyEntries: true, autoClose: true }, (error, zip) => {
-      if (error) return reject(error);
+    yauzl.open(
+      zipPath,
+      { lazyEntries: true, autoClose: true },
+      (error, zip) => {
+        if (error) return reject(error);
 
-      const expected = new Map(
-        expectedFiles.map(file => [file.path, file])
-      );
+        const expected = new Map(
+          expectedFiles.map(file => [file.path, file])
+        );
 
-      const seen = new Set();
+        const seen = new Set();
 
-      let extracted = 0;
-      let preserved = 0;
-      let unchanged = 0;
-      let processedBytes = 0;
-      let processedFiles = 0;
-      let settled = false;
+        let extracted = 0;
+        let preserved = 0;
+        let unchanged = 0;
+        let processedBytes = 0;
+        let processedFiles = 0;
+        let settled = false;
 
-      const totalBytes = expectedFiles.reduce(
-        (sum, file) => sum + file.size,
-        0
-      );
+        const totalBytes = expectedFiles.reduce(
+          (sum, file) => sum + file.size,
+          0
+        );
 
-      const finishError = err => {
-        if (settled) return;
-        settled = true;
-        reject(err);
-      };
+        const finishError = err => {
+          if (settled) return;
 
-      const report = (phase, currentFile, currentFileBytes = 0) => {
-        onExtract({
-          phase,
-          processedBytes: Math.min(
-            totalBytes,
-            processedBytes + currentFileBytes
-          ),
-          totalBytes,
-          processedFiles,
-          totalFiles: expectedFiles.length,
-          currentFile,
-          percent: totalBytes > 0
-            ? Math.min(
-                100,
-                ((processedBytes + currentFileBytes) / totalBytes) * 100
-              )
-            : expectedFiles.length > 0
-              ? (processedFiles / expectedFiles.length) * 100
-              : 100
-        });
-      };
-
-      zip.on('error', finishError);
-
-      zip.on('entry', entry => {
-        if (settled) return;
-
-        if (entry.fileName.endsWith('/')) {
-          zip.readEntry();
-          return;
-        }
-
-        let relative;
-
-        try {
-          relative = safeRelativePath(entry.fileName);
-        } catch (err) {
-          return finishError(err);
-        }
-
-        const file = expected.get(relative);
-
-        if (!file || seen.has(relative)) {
-          return finishError(
-            new Error(`Archivo inesperado o duplicado en ZIP: ${relative}`)
-          );
-        }
-
-        seen.add(relative);
-
-        const destination = resolveInside(root, relative);
-        const previous = previousRegistry[relative];
-
-        const checkExistingFile = async () => {
-          try {
-            report('verify', relative);
-
-            // Proteger los datos personales de Xaero y JourneyMap.
-            if (isProtectedPersonalData(relative)) {
-              preserved++;
-              processedBytes += file.size;
-              processedFiles++;
-
-              report('verify', relative);
-              zip.readEntry();
-              return;
-            }
-
-            // Conservar la configuración de Xaero si ya existe.
-            // En instalaciones nuevas se permite instalarla.
-            if (isXaeroConfig(relative) && fs.existsSync(destination)) {
-              preserved++;
-              processedBytes += file.size;
-              processedFiles++;
-
-              report('verify', relative);
-              zip.readEntry();
-              return;
-            }
-
-            // Comprobar si el archivo ya está actualizado.
-            if (fs.existsSync(destination)) {
-              const currentSha1 = await sha1File(destination);
-
-              if (currentSha1 === file.sha1) {
-                nextRegistry[relative] = file.sha1;
-
-                unchanged++;
-                processedBytes += file.size;
-                processedFiles++;
-
-                report('verify', relative);
-                zip.readEntry();
-                return;
-              }
-
-              // No sobrescribir archivos modificados por el jugador
-              // o cuya propiedad no pueda demostrar el launcher.
-              if (!previous || currentSha1 !== previous) {
-                preserved++;
-
-                processedBytes += file.size;
-                processedFiles++;
-
-                report('verify', relative);
-                zip.readEntry();
-                return;
-              }
-            }
-
-            // Solo extraer si el archivo no existe o si podemos
-            // demostrar que era propiedad de una versión anterior.
-            extractEntry();
-          } catch (err) {
-            finishError(err);
-          }
+          settled = true;
+          reject(err);
         };
 
-        const extractEntry = () => {
-          zip.openReadStream(entry, (streamError, stream) => {
-            if (streamError) return finishError(streamError);
-
-            const temporary = `${destination}.luckysmon-temp`;
-
-            try {
-              fs.mkdirSync(path.dirname(destination), { recursive: true });
-            } catch (err) {
-              stream.destroy();
-              return finishError(err);
-            }
-
-            const output = fs.createWriteStream(temporary);
-            let fileBytes = 0;
-
-            report('extract', relative);
-
-            stream.on('data', chunk => {
-              fileBytes += chunk.length;
-              report('extract', relative, fileBytes);
-            });
-
-            stream.on('error', err => {
-              output.destroy();
-              fs.rmSync(temporary, { force: true });
-              finishError(err);
-            });
-
-            output.on('error', err => {
-              stream.destroy();
-              fs.rmSync(temporary, { force: true });
-              finishError(err);
-            });
-
-            output.on('finish', async () => {
-              output.close();
-
-              try {
-                if (fileBytes !== file.size) {
-                  fs.rmSync(temporary, { force: true });
-
-                  return finishError(
-                    new Error(
-                      `Tamaño incorrecto en ${relative}: ` +
-                      `${fileBytes} bytes recibidos, ${file.size} esperados.`
-                    )
-                  );
-                }
-
-                const actualSha1 = await sha1File(temporary);
-
-                if (actualSha1 !== file.sha1) {
-                  fs.rmSync(temporary, { force: true });
-
-                  return finishError(
-                    new Error(`SHA-1 incorrecto: ${relative}`)
-                  );
-                }
-
-                fs.renameSync(temporary, destination);
-
-                nextRegistry[relative] = file.sha1;
-
-                extracted++;
-                processedBytes += file.size;
-                processedFiles++;
-
-                report('extract', relative);
-                zip.readEntry();
-              } catch (err) {
-                fs.rmSync(temporary, { force: true });
-                finishError(err);
-              }
-            });
-
-            stream.pipe(output);
+        const report = (
+          phase,
+          currentFile,
+          currentFileBytes = 0
+        ) => {
+          onExtract({
+            phase,
+            processedBytes: Math.min(
+              totalBytes,
+              processedBytes + currentFileBytes
+            ),
+            totalBytes,
+            processedFiles,
+            totalFiles: expectedFiles.length,
+            currentFile,
+            percent: totalBytes > 0
+              ? Math.min(
+                  100,
+                  (
+                    (processedBytes + currentFileBytes) /
+                    totalBytes
+                  ) * 100
+                )
+              : expectedFiles.length > 0
+                ? (processedFiles / expectedFiles.length) * 100
+                : 100
           });
         };
 
-        checkExistingFile();
-      });
+        zip.on('error', finishError);
 
-      zip.on('end', () => {
-        if (settled) return;
+        zip.on('entry', entry => {
+          if (settled) return;
 
-        if (seen.size !== expected.size) {
-          return finishError(
-            new Error(
-              `Faltan archivos en ${path.basename(zipPath)}: ` +
-              `${expected.size - seen.size}`
-            )
-          );
-        }
+          if (entry.fileName.endsWith('/')) {
+            zip.readEntry();
+            return;
+          }
 
-        settled = true;
+          let relative;
 
-        onExtract({
-          phase: 'verify',
-          processedBytes: totalBytes,
-          totalBytes,
-          processedFiles: expectedFiles.length,
-          totalFiles: expectedFiles.length,
-          percent: 100
+          try {
+            relative = safeRelativePath(entry.fileName);
+          } catch (err) {
+            return finishError(err);
+          }
+
+          const file = expected.get(relative);
+
+          if (!file || seen.has(relative)) {
+            return finishError(
+              new Error(
+                `Archivo inesperado o duplicado en ZIP: ${relative}`
+              )
+            );
+          }
+
+          seen.add(relative);
+
+          const destination = resolveInside(root, relative);
+          const previous = previousRegistry[relative];
+
+          const checkExistingFile = async () => {
+            try {
+              report('verify', relative);
+
+              // Proteger los datos personales de Xaero y JourneyMap.
+              if (isProtectedPersonalData(relative)) {
+                preserved++;
+                processedBytes += file.size;
+                processedFiles++;
+
+                report('verify', relative);
+                zip.readEntry();
+                return;
+              }
+
+              // Conservar la configuración de Xaero si ya existe.
+              if (
+                isXaeroConfig(relative) &&
+                fs.existsSync(destination)
+              ) {
+                preserved++;
+                processedBytes += file.size;
+                processedFiles++;
+
+                report('verify', relative);
+                zip.readEntry();
+                return;
+              }
+
+              // Comprobar si el archivo ya está actualizado.
+              if (fs.existsSync(destination)) {
+                const currentSha1 = await sha1File(destination);
+
+                if (currentSha1 === file.sha1) {
+                  nextRegistry[relative] = file.sha1;
+
+                  unchanged++;
+                  processedBytes += file.size;
+                  processedFiles++;
+
+                  report('verify', relative);
+                  zip.readEntry();
+                  return;
+                }
+
+                // No sobrescribir archivos modificados por el jugador
+                // o cuya propiedad no pueda demostrar el launcher.
+                if (!previous || currentSha1 !== previous) {
+                  preserved++;
+
+                  processedBytes += file.size;
+                  processedFiles++;
+
+                  report('verify', relative);
+                  zip.readEntry();
+                  return;
+                }
+              }
+
+              // Solo extraer si el archivo no existe o si podemos
+              // demostrar que era propiedad de una versión anterior.
+              extractEntry();
+            } catch (err) {
+              finishError(err);
+            }
+          };
+
+          const extractEntry = () => {
+            zip.openReadStream(entry, (streamError, stream) => {
+              if (streamError) return finishError(streamError);
+
+              const temporary =
+                `${destination}.luckysmon-temp`;
+
+              try {
+                fs.mkdirSync(
+                  path.dirname(destination),
+                  { recursive: true }
+                );
+              } catch (err) {
+                stream.destroy();
+                return finishError(err);
+              }
+
+              const output = fs.createWriteStream(temporary);
+              let fileBytes = 0;
+
+              report('extract', relative);
+
+              stream.on('data', chunk => {
+                fileBytes += chunk.length;
+                report('extract', relative, fileBytes);
+              });
+
+              stream.on('error', err => {
+                output.destroy();
+                fs.rmSync(temporary, { force: true });
+                finishError(err);
+              });
+
+              output.on('error', err => {
+                stream.destroy();
+                fs.rmSync(temporary, { force: true });
+                finishError(err);
+              });
+
+              output.on('finish', async () => {
+                output.close();
+
+                try {
+                  if (fileBytes !== file.size) {
+                    fs.rmSync(temporary, { force: true });
+
+                    return finishError(
+                      new Error(
+                        `Tamaño incorrecto en ${relative}: ` +
+                        `${fileBytes} bytes recibidos, ` +
+                        `${file.size} esperados.`
+                      )
+                    );
+                  }
+
+                  const actualSha1 = await sha1File(temporary);
+
+                  if (actualSha1 !== file.sha1) {
+                    fs.rmSync(temporary, { force: true });
+
+                    return finishError(
+                      new Error(`SHA-1 incorrecto: ${relative}`)
+                    );
+                  }
+
+                  fs.renameSync(temporary, destination);
+
+                  nextRegistry[relative] = file.sha1;
+
+                  extracted++;
+                  processedBytes += file.size;
+                  processedFiles++;
+
+                  report('extract', relative);
+                  zip.readEntry();
+                } catch (err) {
+                  fs.rmSync(temporary, { force: true });
+                  finishError(err);
+                }
+              });
+
+              stream.pipe(output);
+            });
+          };
+
+          checkExistingFile();
         });
 
-        resolve({ extracted, preserved, unchanged });
-      });
+        zip.on('end', () => {
+          if (settled) return;
 
-      zip.readEntry();
-    });
+          if (seen.size !== expected.size) {
+            return finishError(
+              new Error(
+                `Faltan archivos en ${path.basename(zipPath)}: ` +
+                `${expected.size - seen.size}`
+              )
+            );
+          }
+
+          settled = true;
+
+          onExtract({
+            phase: 'verify',
+            processedBytes: totalBytes,
+            totalBytes,
+            processedFiles: expectedFiles.length,
+            totalFiles: expectedFiles.length,
+            percent: 100
+          });
+
+          resolve({
+            extracted,
+            preserved,
+            unchanged
+          });
+        });
+
+        zip.readEntry();
+      }
+    );
   });
 }
 
 // ACTUALIZACIÓN DEL MODPACK
 
-async function updateModpack(installDirectory, onProgress = () => {}) {
+async function updateModpack(
+  installDirectory,
+  onProgress = () => {}
+) {
   const root = path.resolve(installDirectory);
 
   fs.mkdirSync(root, { recursive: true });
@@ -567,24 +660,54 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     message: 'Consultando la versión del modpack...'
   });
 
-  const indexBuffer = await requestBuffer(`${RELEASE_BASE}/index.json`);
+  // 1. Consultar la versión publicada en GitHub.
+  const version = await getModpackVersion();
+
+  // 2. Construir automáticamente la dirección de la Release.
+  const releaseBase =
+    `${RELEASE_BASE_URL}/modpack_v${version}`;
+
+  emitProgress(onProgress, {
+    phase: 'index',
+    percent: 10,
+    overallPercent: 10,
+    version,
+    message: `Versión ${version} detectada. Consultando el índice...`
+  });
+
+  // 3. Descargar el índice de esa versión.
+  const indexBuffer = await requestBuffer(
+    `${releaseBase}/index.json`
+  );
 
   let index;
 
   try {
     index = JSON.parse(indexBuffer.toString('utf8'));
   } catch {
-    throw new Error('El índice descargado no es un JSON válido.');
+    throw new Error(
+      'El índice descargado no es un JSON válido.'
+    );
   }
 
   if (
-  typeof index.version !== 'string' ||
-  !index.version.trim() ||
-  !Array.isArray(index.files) ||
-  !Array.isArray(index.packages)
-) {
-  throw new Error('El índice del modpack tiene un formato o versión incorrectos.');
-}
+    typeof index.version !== 'string' ||
+    !/^\d+\.\d+\.\d+$/.test(index.version) ||
+    !Array.isArray(index.files) ||
+    !Array.isArray(index.packages)
+  ) {
+    throw new Error(
+      'El índice del modpack tiene un formato o versión incorrectos.'
+    );
+  }
+
+  // Evitar descargar un índice de otra versión.
+  if (index.version !== version) {
+    throw new Error(
+      `La versión del índice (${index.version}) no coincide ` +
+      `con la versión publicada (${version}).`
+    );
+  }
 
   const filesByPackage = new Map();
   const knownPaths = new Set();
@@ -611,7 +734,11 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
 
     knownPaths.add(relative);
 
-    if (PERSONAL_FILES.has(path.posix.basename(relative).toLowerCase())) {
+    if (
+      PERSONAL_FILES.has(
+        path.posix.basename(relative).toLowerCase()
+      )
+    ) {
       continue;
     }
 
@@ -647,7 +774,9 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     const expectedFiles = filesByPackage.get(packageName);
 
     if (!expectedFiles || expectedFiles.length !== pkg.files) {
-      throw new Error(`El índice no coincide con ${packageName}.`);
+      throw new Error(
+        `El índice no coincide con ${packageName}.`
+      );
     }
 
     const packagePath = path.join(cache, packageName);
@@ -676,12 +805,18 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
       });
 
       await downloadToFile(
-        `${RELEASE_BASE}/${packageName}`,
+        `${releaseBase}/${packageName}`,
         packagePath,
         progress => {
           const packagePercent = progress.percent ?? 0;
+
           const overallPercent =
-            ((i + packagePercent / 100 * 0.5) / totalPackages) * 100;
+            (
+              (
+                i +
+                (packagePercent / 100) * 0.5
+              ) / totalPackages
+            ) * 100;
 
           emitProgress(onProgress, {
             phase: 'download',
@@ -702,7 +837,10 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
 
       if (actualPackageSha1 !== pkg.sha1.toLowerCase()) {
         fs.rmSync(packagePath, { force: true });
-        throw new Error(`El SHA-1 del paquete no coincide: ${packageName}`);
+
+        throw new Error(
+          `El SHA-1 del paquete no coincide: ${packageName}`
+        );
       }
     } else {
       emitProgress(onProgress, {
@@ -728,7 +866,10 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
       percent: 0,
       overallPercent: ((i + 0.5) / totalPackages) * 100,
       processedBytes: 0,
-      totalBytes: expectedFiles.reduce((sum, file) => sum + file.size, 0),
+      totalBytes: expectedFiles.reduce(
+        (sum, file) => sum + file.size,
+        0
+      ),
       processedFiles: 0,
       totalFiles: expectedFiles.length,
       message: `Comprobando archivos de ${packageName}...`
@@ -742,7 +883,13 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
       nextRegistry,
       progress => {
         const overallPercent =
-          ((i + 0.5 + (progress.percent / 100) * 0.5) / totalPackages) * 100;
+          (
+            (
+              i +
+              0.5 +
+              (progress.percent / 100) * 0.5
+            ) / totalPackages
+          ) * 100;
 
         const phase = progress.phase || 'verify';
 
@@ -769,7 +916,8 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     unchanged += result.unchanged;
     preserved += result.preserved;
 
-    saveRegistry(registryPath, nextRegistry);
+    // El registro NO se guarda aquí.
+    // Se guardará una sola vez al terminar toda la actualización.
 
     emitProgress(onProgress, {
       phase: 'package-complete',
@@ -789,14 +937,20 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     if (nextRegistry[relative]) continue;
 
     // Nunca eliminar datos personales de mapas ni configuración de Xaero.
-    if (isProtectedPersonalData(relative) || isXaeroConfig(relative)) {
+    if (
+      isProtectedPersonalData(relative) ||
+      isXaeroConfig(relative)
+    ) {
       continue;
     }
 
     let destination;
 
     try {
-      destination = resolveInside(root, safeRelativePath(relative));
+      destination = resolveInside(
+        root,
+        safeRelativePath(relative)
+      );
     } catch {
       continue;
     }
@@ -810,6 +964,8 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     }
   }
 
+  // Guardar el registro solo cuando toda la actualización
+  // y la limpieza de archivos antiguos hayan terminado.
   saveRegistry(registryPath, nextRegistry);
 
   emitProgress(onProgress, {
@@ -820,7 +976,8 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     unchanged,
     preserved,
     total: index.files.length,
-    message: 'Lucky\'sMon está actualizado.'
+    version,
+    message: `Lucky'sMon ${version} está actualizado.`
   });
 
   return {
@@ -828,7 +985,7 @@ async function updateModpack(installDirectory, onProgress = () => {}) {
     unchanged,
     preserved,
     total: index.files.length,
-    version: index.version
+    version
   };
 }
 
