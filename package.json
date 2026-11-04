@@ -1,16 +1,62 @@
 {
   "name": "luckysmon-launcher",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Launcher oficial de LuckysMon",
+  "productName": "LuckysMon",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
   },
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^45.1.0"
+    "electron": "^45.1.0",
+    "electron-builder": "^26.0.12"
   },
   "dependencies": {
-    "eml-lib": "^2.7.4"
+    "archiver": "^7.0.1",
+    "electron-updater": "^6.8.11",
+    "eml-lib": "^2.7.4",
+    "yauzl": "^3.2.0"
+  },
+  "build": {
+    "appId": "com.luckysmon.launcher",
+    "productName": "LuckysMon",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "**/*",
+      "!release/**",
+      "!dist/**",
+      "!modpack/**",
+      "!build-modpack.js",
+      "!*.zip",
+      "!*.log",
+      "!node_modules/electron-builder/**"
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "luckymadg",
+      "repo": "LuckysMon-Launcher"
+    },
+    "win": {
+      "artifactName": "${productName}-Setup-${version}.${ext}",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "LuckysMon"
+    }
   }
 }

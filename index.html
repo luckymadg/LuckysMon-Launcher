@@ -6,7 +6,140 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lucky´sMon Launcher</title>
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .updates-panel {
+      margin-top: 22px;
+      padding: 22px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+    }
+
+    .updates-panel h3 {
+      margin: 0 0 22px;
+    }
+
+    .update-item {
+      margin-bottom: 23px;
+    }
+
+    .update-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .update-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 9px;
+      font-size: 13px;
+    }
+
+    .update-heading strong {
+      color: #fff;
+    }
+
+    .update-heading span {
+      color: #ddd;
+      text-align: right;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .progress-track {
+      height: 9px;
+      overflow: hidden;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.10);
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: 20px;
+      background: #d83b45;
+      transition: width 0.2s ease;
+    }
+
+    .update-description {
+      display: block;
+      margin-top: 8px;
+      color: #aaa;
+      font-size: 12px;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
+    }
+
+    .update-details {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      margin-top: 7px;
+      color: #85858d;
+      font-size: 11px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .update-error {
+      color: #ff7373 !important;
+    }
+
+    .update-success {
+      color: #75d99b !important;
+    }
+
+    .progress-fill.error {
+      background: #ff5555;
+    }
+
+    .progress-fill.success {
+      background: #48bd7a;
+    }
+
+    #play:disabled {
+      cursor: wait;
+      opacity: 0.65;
+    }
+
+    /* ESTADO DEL SERVIDOR */
+
+    .server-status {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      gap: 12px;
+    }
+
+    .server-information {
+      display: grid;
+      gap: 5px;
+    }
+
+    .server-information strong {
+      color: #d6a43e;
+    }
+
+    .server-information span {
+      color: #aaaab3;
+      font-size: 11px;
+    }
+
+    #server-dot.online {
+      background: #48bd7a;
+      box-shadow: 0 0 10px rgba(72, 189, 122, 0.6);
+    }
+
+    #server-dot.offline {
+      background: #ff5555;
+      box-shadow: 0 0 10px rgba(255, 85, 85, 0.5);
+    }
+  </style>
 </head>
+
 <body>
   <div class="app">
     <aside class="sidebar">
@@ -36,7 +169,7 @@
     <main class="content">
       <header class="topbar">
         <span>LAUNCHER OFICIAL</span>
-        <span class="version">VERSIÓN 1.0.0</span>
+        <span class="version">VERSIÓN 1.0.4</span>
       </header>
 
       <section class="hero">
@@ -54,18 +187,84 @@
           <p>Cobblemon · Fabric 1.21.1</p>
           <div class="details">
             <span>● Modpack personalizado</span>
-            <span>● Actualizaciones automáticas próximamente</span>
+            <span>● Actualizaciones automáticas</span>
           </div>
         </div>
 
         <div class="play-area">
           <div class="server-status">
-            <span class="online-dot"></span>
-            <span>Estado del servidor</span>
-            <strong>Sin comprobar</strong>
+            <span class="online-dot" id="server-dot"></span>
+
+            <div class="server-information">
+              <strong id="server-state">Comprobando servidor...</strong>
+              <span id="server-players">Jugadores: — / —</span>
+              <span id="server-latency">Latencia: —</span>
+              <span id="server-version">Versión: —</span>
+            </div>
           </div>
+
           <button id="play">JUGAR</button>
-          <small>Launcher en desarrollo</small>
+          <small>Launcher oficial</small>
+        </div>
+      </section>
+
+      <section class="updates-panel">
+        <h3>Actividad del launcher</h3>
+
+        <div class="update-item">
+          <div class="update-heading">
+            <strong>Actualización del launcher</strong>
+            <span id="launcher-percent">—</span>
+          </div>
+
+          <div class="progress-track">
+            <div class="progress-fill" id="launcher-bar"></div>
+          </div>
+
+          <small class="update-description" id="launcher-status">
+            Esperando comprobación...
+          </small>
+
+          <div class="update-details">
+            <span id="launcher-speed"></span>
+            <span id="launcher-size"></span>
+          </div>
+        </div>
+
+        <div class="update-item">
+          <div class="update-heading">
+            <strong>Actualización del modpack</strong>
+            <span id="modpack-percent">0 %</span>
+          </div>
+
+          <div class="progress-track">
+            <div class="progress-fill" id="modpack-bar"></div>
+          </div>
+
+          <small class="update-description" id="modpack-status">
+            Esperando comprobación...
+          </small>
+
+          <div class="update-details">
+            <span id="modpack-speed"></span>
+            <span id="modpack-size"></span>
+            <span id="modpack-files"></span>
+          </div>
+        </div>
+
+        <div class="update-item">
+          <div class="update-heading">
+            <strong>Preparación de Minecraft</strong>
+            <span id="game-percent">—</span>
+          </div>
+
+          <div class="progress-track">
+            <div class="progress-fill" id="game-bar"></div>
+          </div>
+
+          <small class="update-description" id="game-status">
+            Esperando para iniciar...
+          </small>
         </div>
       </section>
 
@@ -75,5 +274,376 @@
       </footer>
     </main>
   </div>
+
+  <script>
+    (() => {
+      'use strict';
+
+      const api = window.launcherAPI;
+      const getElement = id => document.getElementById(id);
+
+      function formatBytes(bytes) {
+        const value = Number(bytes);
+
+        if (!Number.isFinite(value) || value < 0) return '0 B';
+
+        const units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        let amount = value;
+        let index = 0;
+
+        while (amount >= 1024 && index < units.length - 1) {
+          amount /= 1024;
+          index++;
+        }
+
+        return `${amount.toFixed(index === 0 ? 0 : 1)} ${units[index]}`;
+      }
+
+      function formatSpeed(bytesPerSecond) {
+        const speed = Number(bytesPerSecond);
+
+        if (!Number.isFinite(speed) || speed <= 0) {
+          return '0 MB/s';
+        }
+
+        return `${(speed / 1024 / 1024).toFixed(2)} MB/s`;
+      }
+
+      function setProgress(prefix, value, state = '') {
+        const bar = getElement(`${prefix}-bar`);
+        const percent = getElement(`${prefix}-percent`);
+
+        if (!bar || !percent) return;
+
+        const progress = Math.max(0, Math.min(100, Number(value) || 0));
+
+        bar.style.width = `${progress}%`;
+        percent.textContent = `${Math.round(progress)} %`;
+
+        bar.classList.remove('error', 'success');
+
+        if (state === 'error') bar.classList.add('error');
+        if (state === 'success') bar.classList.add('success');
+      }
+
+      function updateStatus(prefix, message, phase) {
+        const status = getElement(`${prefix}-status`);
+
+        if (!status) return;
+
+        const defaultMessages = {
+          checking: 'Comprobando actualizaciones...',
+          downloading: 'Descargando actualización...',
+          download: 'Descargando paquetes...',
+          index: 'Consultando versión del modpack...',
+          verify: 'Comprobando archivos instalados...',
+          extract: 'Instalando archivos...',
+          complete: 'Tienes la última versión.',
+          downloaded: 'Actualización descargada. Reinicia para instalarla.',
+          skipped: 'Actualizador no disponible en modo desarrollo.',
+          error: 'Error durante la actualización.'
+        };
+
+        status.textContent =
+          message || defaultMessages[phase] || 'Procesando...';
+
+        status.classList.remove('update-error', 'update-success');
+
+        if (phase === 'error') {
+          status.classList.add('update-error');
+        }
+
+        if (
+          phase === 'complete' ||
+          phase === 'downloaded' ||
+          phase === 'running' ||
+          phase === 'closed'
+        ) {
+          status.classList.add('update-success');
+        }
+      }
+
+      // ACTUALIZACIÓN DEL LAUNCHER
+
+      function updateLauncher(data) {
+        if (!data) return;
+
+        const speed = getElement('launcher-speed');
+        const size = getElement('launcher-size');
+        const percent = getElement('launcher-percent');
+
+        updateStatus('launcher', data.message, data.phase);
+
+        switch (data.phase) {
+          case 'checking':
+            setProgress('launcher', 0);
+            percent.textContent = '...';
+            if (speed) speed.textContent = '';
+            if (size) size.textContent = '';
+            break;
+
+          case 'complete':
+            setProgress('launcher', 100, 'success');
+            if (speed) speed.textContent = '';
+            if (size) size.textContent = '';
+            break;
+
+          case 'downloading':
+            if (data.percent != null) {
+              setProgress('launcher', data.percent);
+            } else {
+              percent.textContent = '...';
+            }
+
+            if (speed && data.bytesPerSecond != null) {
+              speed.textContent = formatSpeed(data.bytesPerSecond);
+            }
+
+            if (
+              size &&
+              data.transferred != null &&
+              data.total != null
+            ) {
+              size.textContent =
+                `${formatBytes(data.transferred)} / ${formatBytes(data.total)}`;
+            }
+            break;
+
+          case 'downloaded':
+            setProgress('launcher', 100, 'success');
+            if (speed) speed.textContent = '';
+            if (size) size.textContent = 'Descarga terminada';
+            break;
+
+          case 'skipped':
+            setProgress('launcher', 0);
+            percent.textContent = '—';
+            if (speed) speed.textContent = '';
+            if (size) size.textContent = '';
+            break;
+
+          case 'error':
+            setProgress('launcher', 0, 'error');
+            percent.textContent = '!';
+            if (speed) speed.textContent = '';
+            break;
+
+          default:
+            if (data.percent != null) {
+              setProgress('launcher', data.percent);
+            }
+            break;
+        }
+      }
+
+      // ACTUALIZACIÓN DEL MODPACK
+
+      function updateModpack(data) {
+        if (!data) return;
+
+        const phase = data.phase;
+
+        updateStatus('modpack', data.message, phase);
+
+        let progress = Number(data.overallPercent);
+
+        if (!Number.isFinite(progress)) {
+          progress = Number(data.percent);
+        }
+
+        if (phase === 'complete') progress = 100;
+
+        if (phase === 'error') {
+          setProgress('modpack', progress, 'error');
+        } else if (phase === 'complete') {
+          setProgress('modpack', 100, 'success');
+        } else if (Number.isFinite(progress)) {
+          setProgress('modpack', progress);
+        }
+
+        const speed = getElement('modpack-speed');
+        const size = getElement('modpack-size');
+        const files = getElement('modpack-files');
+
+        if (speed) {
+          speed.textContent = phase === 'download'
+            ? formatSpeed(data.speedBps)
+            : '';
+        }
+
+        if (size) {
+          if (phase === 'download') {
+            size.textContent =
+              `${formatBytes(data.downloadedBytes)} / ${formatBytes(data.totalBytes)}`;
+          } else if (phase === 'verify' || phase === 'extract') {
+            size.textContent =
+              `${formatBytes(data.processedBytes)} / ${formatBytes(data.totalBytes)}`;
+          } else {
+            size.textContent = '';
+          }
+        }
+
+        if (files) {
+          if (phase === 'verify' || phase === 'extract') {
+            files.textContent =
+              `${data.processedFiles || 0} / ${data.totalFiles || 0} archivos`;
+          } else if (phase === 'complete') {
+            files.textContent =
+              `${data.downloaded || 0} instalados · ` +
+              `${data.unchanged || 0} sin cambios · ` +
+              `${data.preserved || 0} protegidos`;
+          } else {
+            files.textContent = '';
+          }
+        }
+      }
+
+      // PREPARACIÓN DE MINECRAFT
+
+      function updateGame(data) {
+        if (!data) return;
+
+        updateStatus('game', data.message, data.phase);
+
+        if (data.phase === 'running' || data.phase === 'closed') {
+          setProgress('game', 100, 'success');
+        } else if (data.phase === 'error') {
+          setProgress('game', 0, 'error');
+        } else if (data.phase === 'complete') {
+          setProgress('game', 100, 'success');
+        } else if (data.percent != null) {
+          setProgress('game', data.percent);
+        }
+      }
+
+      // ESTADO DEL SERVIDOR
+
+      function updateServerStatus(data) {
+        if (!data) return;
+
+        console.log('[Renderer] Estado del servidor recibido:', data);
+
+        const state = getElement('server-state');
+        const players = getElement('server-players');
+        const latency = getElement('server-latency');
+        const version = getElement('server-version');
+        const dot = getElement('server-dot');
+
+        if (!state || !players || !latency || !version || !dot) {
+          console.error('[Renderer] No se encuentran los elementos del servidor.');
+          return;
+        }
+
+        if (data.checking) {
+          state.textContent = 'Comprobando servidor...';
+          state.style.color = '#d6a43e';
+          players.textContent = 'Jugadores: — / —';
+          latency.textContent = 'Latencia: —';
+          version.textContent = 'Versión: —';
+          dot.className = '';
+          return;
+        }
+
+        if (!data.online) {
+          state.textContent = 'OFFLINE';
+          state.style.color = '#ff5555';
+          players.textContent = 'Jugadores: 0 / —';
+          latency.textContent = 'Latencia: —';
+          version.textContent = data.error
+            ? `Error: ${data.error}`
+            : 'Servidor no disponible';
+          dot.className = 'offline';
+          return;
+        }
+
+        state.textContent = 'ONLINE';
+        state.style.color = '#48bd7a';
+
+        players.textContent =
+          `Jugadores: ${data.playersOnline} / ${data.playersMax}`;
+
+        latency.textContent = `Latencia: ${data.latency} ms`;
+        version.textContent = `Versión: ${data.version}`;
+
+        dot.className = 'online';
+      }
+
+      // COMPROBAR API DE ELECTRON
+
+      if (!api) {
+        updateStatus(
+          'game',
+          'Error: no se ha podido conectar con Electron.',
+          'error'
+        );
+
+        console.error(
+          'No se encuentra window.launcherAPI. Comprueba preload.js.'
+        );
+
+        return;
+      }
+
+      // EVENTOS DEL LAUNCHER
+
+      api.onLauncherUpdateStatus(updateLauncher);
+      api.onLauncherUpdateProgress(updateLauncher);
+
+      // EVENTOS DEL MODPACK
+
+      api.onModpackUpdateStatus(updateModpack);
+      api.onModpackUpdateProgress(updateModpack);
+
+      // EVENTOS DE MINECRAFT
+
+      api.onGameStatus(updateGame);
+      api.onGameProgress(updateGame);
+
+      // EVENTOS DEL SERVIDOR
+
+      console.log('[Renderer] Registrando listener del servidor.');
+
+      api.onServerStatus(updateServerStatus);
+
+      console.log('[Renderer] Listener del servidor registrado.');
+
+      // BOTÓN JUGAR
+
+      const playButton = getElement('play');
+
+      playButton.addEventListener('click', async () => {
+        const originalText = playButton.textContent;
+
+        playButton.disabled = true;
+        playButton.textContent = 'PREPARANDO...';
+
+        updateGame({
+          phase: 'start',
+          message: 'Preparando el inicio de Minecraft...'
+        });
+
+        try {
+          const result = await api.play();
+
+          if (result && !result.success) {
+            updateGame({
+              phase: 'error',
+              message: result.message || 'No se ha podido iniciar Minecraft.'
+            });
+          }
+        } catch (error) {
+          console.error('Error al iniciar Minecraft:', error);
+
+          updateGame({
+            phase: 'error',
+            message: error.message || 'Error al iniciar Minecraft.'
+          });
+        } finally {
+          playButton.disabled = false;
+          playButton.textContent = originalText;
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
