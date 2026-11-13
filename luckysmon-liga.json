@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "version": "0.4.0",
+  "archive": "LuckysMon_Liga_Trainers_HD_v0.4.0.zip",
+  "sha256": "4acc7a848a4acb9900090b95b29e91a47768eb71604809db9caf9a4f245d3d34",
+  "size": 65617,
+  "files": [
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_campeon.png",
+      "size": 2354
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider1.png",
+      "size": 2048
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider2.png",
+      "size": 1817
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider3.png",
+      "size": 2121
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider4.png",
+      "size": 2094
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider5.png",
+      "size": 1910
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider6.png",
+      "size": 1906
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider7.png",
+      "size": 2026
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider8.png",
+      "size": 2239
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_campeon.png",
+      "size": 2168
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider1.png",
+      "size": 1992
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider2.png",
+      "size": 2103
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider3.png",
+      "size": 1869
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider4.png",
+      "size": 2215
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider5.png",
+      "size": 1990
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider6.png",
+      "size": 2096
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider7.png",
+      "size": 1969
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider8.png",
+      "size": 2174
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_campeon.png",
+      "size": 2541
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider1.png",
+      "size": 3136
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider2.png",
+      "size": 2440
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider3.png",
+      "size": 2462
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider4.png",
+      "size": 2411
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider5.png",
+      "size": 2402
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider6.png",
+      "size": 2228
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider7.png",
+      "size": 2388
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider8.png",
+      "size": 2730
+    },
+    {
+      "path": "LEEME.txt",
+      "size": 769
+    },
+    {
+      "path": "pack.mcmeta",
+      "size": 145
+    },
+    {
+      "path": "pack.png",
+      "size": 434
+    }
+  ]
+}
