@@ -1,10 +1,62 @@
 {
   "schema": 1,
-  "version": "0.4.0",
-  "archive": "LuckysMon_Liga_Trainers_HD_v0.4.0.zip",
-  "sha256": "4acc7a848a4acb9900090b95b29e91a47768eb71604809db9caf9a4f245d3d34",
-  "size": 65617,
+  "version": "0.5.0",
+  "archive": "LuckysMon_Liga_Trainers_HD_v0.5.0.zip",
+  "sha256": "0d39041901dd5ac1532afae746b1a0d825519d899b176259e65367d34a88f552",
+  "size": 74001,
   "files": [
+    {
+      "path": "assets/luckysmon/models/item/llave_comun.json",
+      "size": 107
+    },
+    {
+      "path": "assets/luckysmon/models/item/llave_epica.json",
+      "size": 107
+    },
+    {
+      "path": "assets/luckysmon/models/item/llave_legendaria.json",
+      "size": 112
+    },
+    {
+      "path": "assets/luckysmon/models/item/llave_luckysmon.json",
+      "size": 111
+    },
+    {
+      "path": "assets/luckysmon/models/item/llave_poco_comun.json",
+      "size": 112
+    },
+    {
+      "path": "assets/luckysmon/models/item/llave_rara.json",
+      "size": 106
+    },
+    {
+      "path": "assets/luckysmon/textures/item/llave_comun.png",
+      "size": 632
+    },
+    {
+      "path": "assets/luckysmon/textures/item/llave_epica.png",
+      "size": 899
+    },
+    {
+      "path": "assets/luckysmon/textures/item/llave_legendaria.png",
+      "size": 872
+    },
+    {
+      "path": "assets/luckysmon/textures/item/llave_luckysmon.png",
+      "size": 694
+    },
+    {
+      "path": "assets/luckysmon/textures/item/llave_poco_comun.png",
+      "size": 724
+    },
+    {
+      "path": "assets/luckysmon/textures/item/llave_rara.png",
+      "size": 771
+    },
+    {
+      "path": "assets/minecraft/models/item/tripwire_hook.json",
+      "size": 746
+    },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_campeon.png",
       "size": 2354
@@ -115,11 +167,11 @@
     },
     {
       "path": "LEEME.txt",
-      "size": 769
+      "size": 1777
     },
     {
       "path": "pack.mcmeta",
-      "size": 145
+      "size": 162
     },
     {
       "path": "pack.png",
