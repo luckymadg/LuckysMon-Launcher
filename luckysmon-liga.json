@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.5.0",
-  "archive": "LuckysMon_Liga_Trainers_HD_v0.5.0.zip",
-  "sha256": "0d39041901dd5ac1532afae746b1a0d825519d899b176259e65367d34a88f552",
-  "size": 74001,
+  "version": "0.6.5",
+  "archive": "LuckysMon_Liga_Trainers_HD_v0.6.5.zip",
+  "sha256": "3ffb3699b18df0a022a1dc1e869e95081c6594b857fa73e2e7ba36eb4c3a7f47",
+  "size": 670920,
   "files": [
     {
       "path": "assets/luckysmon/models/item/llave_comun.json",
@@ -28,6 +28,58 @@
     {
       "path": "assets/luckysmon/models/item/llave_rara.json",
       "size": 106
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/anciano.png",
+      "size": 2575
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/campista.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/cazabichos.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/cientifico.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/dependiente.png",
+      "size": 2108
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/enfermera.png",
+      "size": 2234
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/excursionista.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/guardia.png",
+      "size": 2387
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/karateka.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/marinero.png",
+      "size": 1963
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/pescador.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/vecina.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/luckysmon/textures/entity/npc/vecino.png",
+      "size": 2153
     },
     {
       "path": "assets/luckysmon/textures/item/llave_comun.png",
@@ -58,124 +110,652 @@
       "size": 746
     },
     {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_alola_alto1.png",
+      "size": 5293
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_alola_alto2.png",
+      "size": 5200
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_alola_alto3.png",
+      "size": 5768
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_alola_alto4.png",
+      "size": 5557
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_galar_alto1.png",
+      "size": 5823
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_galar_alto2.png",
+      "size": 5949
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_galar_alto3.png",
+      "size": 5647
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_alto1.png",
+      "size": 5411
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_alto2.png",
+      "size": 5939
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_alto3.png",
+      "size": 6211
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_alto4.png",
+      "size": 6778
+    },
+    {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_campeon.png",
-      "size": 2354
+      "size": 7425
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider1.png",
-      "size": 2048
+      "size": 6316
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider2.png",
-      "size": 1817
+      "size": 6051
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider3.png",
-      "size": 2121
+      "size": 6443
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider4.png",
-      "size": 2094
+      "size": 5857
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider5.png",
-      "size": 1910
+      "size": 6087
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider6.png",
-      "size": 1906
+      "size": 6369
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider7.png",
-      "size": 2026
+      "size": 6185
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_hoenn_lider8.png",
-      "size": 2239
+      "size": 6816
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_alto1.png",
+      "size": 6121
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_alto2.png",
+      "size": 5519
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_alto3.png",
+      "size": 5633
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_alto4.png",
+      "size": 6262
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_campeon.png",
-      "size": 2168
+      "size": 7118
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider1.png",
-      "size": 1992
+      "size": 6705
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider2.png",
-      "size": 2103
+      "size": 6487
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider3.png",
-      "size": 1869
+      "size": 6048
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider4.png",
-      "size": 2215
+      "size": 6765
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider5.png",
-      "size": 1990
+      "size": 5881
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider6.png",
-      "size": 2096
+      "size": 6741
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider7.png",
-      "size": 1969
+      "size": 6391
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_johto_lider8.png",
-      "size": 2174
+      "size": 6725
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kalos_alto1.png",
+      "size": 6817
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kalos_alto2.png",
+      "size": 5925
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kalos_alto3.png",
+      "size": 5995
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kalos_alto4.png",
+      "size": 6601
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_alto1.png",
+      "size": 6617
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_alto2.png",
+      "size": 5320
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_alto3.png",
+      "size": 6389
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_alto4.png",
+      "size": 6971
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_campeon.png",
-      "size": 2541
+      "size": 7306
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider1.png",
-      "size": 3136
+      "size": 7109
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider2.png",
-      "size": 2440
+      "size": 6699
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider3.png",
-      "size": 2462
+      "size": 6698
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider4.png",
-      "size": 2411
+      "size": 7094
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider5.png",
-      "size": 2402
+      "size": 6203
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider6.png",
-      "size": 2228
+      "size": 7124
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider7.png",
-      "size": 2388
+      "size": 7168
     },
     {
       "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_lider8.png",
-      "size": 2730
+      "size": 7368
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_espuma_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_espuma_3.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_espuma_4.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_espuma_5.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_moon_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_moon_3.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_moon_4.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_moon_5.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_moon_6.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r1_1.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r1_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r1_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r1_4.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r10_1.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r10_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r10_3.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r10_4.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r11_1.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r11_2.png",
+      "size": 1963
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r11_3.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r11_4.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r12_1.png",
+      "size": 1963
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r12_2.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r12_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r12_4.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r13_1.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r13_2.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r13_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r13_4.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r14_1.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r14_2.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r14_3.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r14_4.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r16_1.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r16_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r16_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r16_4.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r17_1.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r17_2.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r17_3.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r17_4.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r18_1.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r18_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r18_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r18_4.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r22_1.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r22_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r22_3.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r22_4.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r24_1.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r24_2.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r24_3.png",
+      "size": 1963
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r26_1.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r26_2.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r26_3.png",
+      "size": 2153
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r2n_1.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r2n_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r2n_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r2s_1.png",
+      "size": 2117
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r2s_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r2s_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r3_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r3_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r3_3.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r3_4.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r4_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r4_2.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r4_3.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r4_4.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r5_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r5_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r5_3.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r5_4.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r6_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r6_2.png",
+      "size": 2067
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r6_3.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r7_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r7_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r7_3.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r8_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r8_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r8_3.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r9_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r9_2.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r9_3.png",
+      "size": 2380
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_r9_4.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_tunel_2.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_tunel_3.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_tunel_4.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_tunel_5.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_tunel_6.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_victoria_1.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_victoria_2.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_victoria_3.png",
+      "size": 2668
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_victoria_4.png",
+      "size": 2194
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_victoria_5.png",
+      "size": 2099
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_kanto_ruta_victoria_6.png",
+      "size": 2061
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_paldea_alto1.png",
+      "size": 6212
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_paldea_alto2.png",
+      "size": 5889
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_paldea_alto3.png",
+      "size": 5962
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_paldea_alto4.png",
+      "size": 6560
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_sinnoh_alto1.png",
+      "size": 5867
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_sinnoh_alto2.png",
+      "size": 5144
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_sinnoh_alto3.png",
+      "size": 6154
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_sinnoh_alto4.png",
+      "size": 5767
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_teselia_alto1.png",
+      "size": 6255
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_teselia_alto2.png",
+      "size": 6822
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_teselia_alto3.png",
+      "size": 5501
+    },
+    {
+      "path": "assets/rctmod/textures/trainers/single/luckysmon_teselia_alto4.png",
+      "size": 4976
     },
     {
       "path": "LEEME.txt",
-      "size": 1777
+      "size": 2043
     },
     {
       "path": "pack.mcmeta",
-      "size": 162
+      "size": 208
     },
     {
       "path": "pack.png",
-      "size": 434
+      "size": 551
     }
   ]
 }
